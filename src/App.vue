@@ -3,14 +3,14 @@
         <PrimeiroComponente/>
         <p>o dado é {{ testando }}</p>
         <LyfeCycle/>
-        <Pessoa/>
+        <PessoaIndividuo/>
     </div>
 </template>
 
 <script>
     import PrimeiroComponente from './components/PrimeiroComponente.vue'
     import LyfeCycle from './components/LyfeCycle.vue'
-    import Pessoa from './components/Pessoa.vue'
+    import PessoaIndividuo from './components/PessoaIndividuo.vue'
   
 
     export default {
@@ -18,7 +18,7 @@
         components: {
             PrimeiroComponente,
             LyfeCycle,
-            Pessoa,
+            PessoaIndividuo
         },
         data() {
             return {
